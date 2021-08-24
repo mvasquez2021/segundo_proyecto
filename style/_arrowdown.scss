@@ -1,0 +1,22 @@
+.arrow-down{
+  padding: 1px 0;
+
+  h2{
+    margin-top: 15px;
+    color: #00CF95;
+    text-align: center;
+    font-family: 'Raleway';
+    font-weight: 600;
+    font-size: 13px;
+  }
+  img{
+    display: block;
+    margin: 0 auto;
+    transition: all 0.5s ease;
+
+     &:hover{
+     margin: 10px auto;
+     filter: grayscale(80%);
+     }
+  }
+}

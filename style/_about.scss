@@ -1,0 +1,73 @@
+.about {
+    display: flex;
+    position: relative;
+    margin-bottom: 50px;
+
+  .about-left {
+    padding-right: 40px;
+  }
+
+  .about-right {
+    padding-left: 40px;
+
+    &:hover {
+      filter: grayscale(80%);
+    }
+  }
+
+  .about-left,
+  .about-right {
+    width: 50%;
+  }
+
+  h3 {
+    font-size: 1.6rem;
+    margin-bottom: 20px;
+  }
+
+  h2 {
+    font-size: 3.2rem;
+    margin-bottom: 10px;
+  }
+
+  h1 {
+    font-size: 4rem;
+    color: $color-branding-secondary;
+    margin-bottom: 15px;
+  }
+
+  p {
+    border-left: 4px solid $color-branding-secondary;
+    line-height: 1.8;
+    padding-left: 16px;
+    margin-bottom: 20px;
+  }
+
+  .about-social-media {
+    position: absolute;
+    right: 0;
+  }
+
+  .about-buttons,
+  .about-buttons ul {
+    display: flex;
+    align-items: center;
+  }
+
+  .about-buttons{
+    .download {
+      background: $color-branding-primary;
+      color: #fff;
+      padding: 15px 40px;
+      margin-right: 20px;
+    }
+
+    li {
+      margin-right: 14px;
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+}

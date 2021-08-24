@@ -1,0 +1,66 @@
+.contact{
+  h2 {
+  margin-top: 80px;
+  padding-bottom: 30px;
+  font-size: 28px;
+  color: #0098EF;;
+  }
+
+  .row {
+    margin-bottom: 20px;
+    margin: 10px 150px;
+
+    &:last-child {
+      margin-bottom: 0;
+      justify-content: center;
+    }
+  }
+
+  input,
+  textarea{
+    padding: 10px 5px;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 10px;
+
+    &:focus {
+      outline: none;
+
+      &:valid {
+        border: 1px solid #00CF95;
+      }
+
+      &:invalid {
+        border: 1px solid #6d0ad3;
+        }
+    }
+  }
+
+  button {
+    width: 20%;
+    padding: 20px;
+    background: #6D0AD3;
+    color: white;
+    border: 0;
+    border-radius: 10px;
+    cursor: pointer;
+
+    &:hover {
+      background-color: #7e0fec;
+      cursor: pointer;
+    }
+  }
+
+  .item {
+    width:100%;
+
+    &:first-child, &:last-child {
+      padding-right: 10px;
+    }
+  }
+
+  textarea {
+    margin: 0px auto 0px;
+  }
+}
+
